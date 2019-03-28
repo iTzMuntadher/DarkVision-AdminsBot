@@ -10,3 +10,4 @@ client.on('message', message => {
     	message.reply('hi');
   	}
 });
+client.login('NTYwNjk0MzczNTgzNjgzNjA0.D34DBg.8U3gRTGzVawh7Qs1Px70hWc3i9M');
