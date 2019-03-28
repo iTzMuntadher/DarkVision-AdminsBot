@@ -12,11 +12,5 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'hi'){
-        message.reply('hello');
-    }
-}
-
 // THIS  MUST  BE  THIS  WAY
 client.login('NTYwNjk0MzczNTgzNjgzNjA0.D34DBg.8U3gRTGzVawh7Qs1Px70hWc3i9M');
