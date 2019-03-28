@@ -12,7 +12,9 @@ client.on('message', message => {
     // Send the user's avatar URL
     message.reply(message.author.avatarURL);
   }
-if (message.content.startsWith(prefix + 'ping'))
+if (message.content.startsWith(prefix + 'ping')){
+message.channel.sendmessage('pong');
+}
 });
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
