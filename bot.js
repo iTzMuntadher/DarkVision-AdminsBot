@@ -9,15 +9,11 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === prefix + 'ping') {
     	message.reply('pong');
+        
   	}
-});
-
-client.on('message', message => {
-  // If the message is "what is my avatar"
-  if (message.content === 'prefix' + 'avatar') {
+if (message.content === 'prefix' + 'avatar') {
     // Send the user's avatar URL
     message.reply(message.author.avatarURL);
-  }
 });
 
 // THIS  MUST  BE  THIS  WAY
