@@ -1,4 +1,0 @@
-token=NTYwNjk0MzczNTgzNjgzNjA0.D33riw.OW0OCj0J4p7O3Yc1bEnKX1cNlHs
-Owner= 294171751254851584
-prefix= "$"
-game= "DarkV"
