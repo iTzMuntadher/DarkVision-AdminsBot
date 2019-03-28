@@ -1,6 +1,6 @@
 var prefix = '$'
 client.on('message', message => {
-    if (message.content === 'prefix' + 'hi') {
+    if (message.content === 'hi') {
     	message.reply('Hello');
   	}
 });
