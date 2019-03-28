@@ -12,5 +12,13 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+  // If the message is "what is my avatar"
+  if (message.content === 'prefix' + 'avatar') {
+    // Send the user's avatar URL
+    message.reply(message.author.avatarURL);
+  }
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login('NTYwNjk0MzczNTgzNjgzNjA0.D34DBg.8U3gRTGzVawh7Qs1Px70hWc3i9M');
