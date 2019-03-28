@@ -1,8 +1,0 @@
-{
-“name”: “darkv-adminsbot”,
-“version”: “1.0.0”,
-“description”: “My First Discord Bot”,
-“main”: “bot.js”,
-“author”: “iTzMuntadher”,
-“dependencies”: {}
-}
