@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = '$'
 
 client.on('ready', () => {
   console.log('I am ready!');
@@ -8,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	if (message.author === client.user) return;
-	if (message.content.startsWith(prefix + 'ping')) {
+	if (message.content.startsWith('ping')) {
 		message.channel.sendMessage('pong');
 	}
 });
