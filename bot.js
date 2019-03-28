@@ -10,7 +10,7 @@ client.on('message', message => {
     if (message.content === prefix + 'ping') {
     	message.reply('pong');
         
-  	}
+  	}else
 if (message.content === 'prefix' + 'avatar') {
     // Send the user's avatar URL
     message.reply(message.author.avatarURL);
